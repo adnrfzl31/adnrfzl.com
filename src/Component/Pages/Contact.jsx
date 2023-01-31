@@ -27,7 +27,7 @@ function Contact() {
 
   const EmailClick = () => {
     let emailReceiver = "adenurfaizal31@gmail.com"
-    location.href = "mailto:" + emailReceiver
+    window.location.href = "mailto:" + emailReceiver
   }
 
   const handleSubmit = useMutation(async (e) => {
@@ -40,7 +40,7 @@ function Contact() {
       let message = DataContact.Message
 
       let emailReceiver = "adenurfaizal31@gmail.com"
-      location.href =
+      window.location.href =
         "mailto:" +
         emailReceiver +
         "?subject=" +
