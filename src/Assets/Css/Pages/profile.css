@@ -1,0 +1,131 @@
+.bg-profile {
+  background-color: #282c34;
+}
+
+.profile-card {
+  width: 28rem;
+  height: 600px;
+  background-color: #282c34;
+  border: none;
+}
+
+.profile-img {
+  height: 275px;
+}
+
+.profile-title {
+  font-size: 30px;
+}
+
+.color-text {
+  color: white;
+}
+
+.profile-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.profile-button {
+  border: none;
+  background-color: #ff4c60;
+}
+
+/* Scroll group */
+.scroll-down {
+  /* position: absolute; */
+  bottom: 40px;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+.scroll-down.light span {
+  color: #454360;
+}
+.scroll-down.light .mouse {
+  border-color: #353353;
+}
+.scroll-down.light .mouse .wheel {
+  background: #353353;
+}
+
+@-webkit-keyframes ani-mouse {
+  0% {
+    top: 29%;
+  }
+  15% {
+    top: 50%;
+  }
+  50% {
+    top: 50%;
+  }
+  100% {
+    top: 29%;
+  }
+}
+@-moz-keyframes ani-mouse {
+  0% {
+    top: 29%;
+  }
+  15% {
+    top: 50%;
+  }
+  50% {
+    top: 50%;
+  }
+  100% {
+    top: 29%;
+  }
+}
+@keyframes ani-mouse {
+  0% {
+    top: 29%;
+  }
+  15% {
+    top: 50%;
+  }
+  50% {
+    top: 50%;
+  }
+  100% {
+    top: 29%;
+  }
+}
+
+.mouse-wrapper {
+  color: white;
+  font-size: 14px;
+  display: block;
+  max-width: 100px;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+}
+.mouse-wrapper:hover {
+  color: white;
+}
+
+.mouse {
+  border: solid 2px white;
+  border-radius: 16px;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  height: 26px;
+  position: relative;
+  width: 20px;
+}
+.mouse .wheel {
+  background: white;
+  border-radius: 100%;
+  display: block;
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 4px;
+  -webkit-animation: ani-mouse 2s linear infinite;
+  -moz-animation: ani-mouse 2s linear infinite;
+  animation: ani-mouse 2s linear infinite;
+}

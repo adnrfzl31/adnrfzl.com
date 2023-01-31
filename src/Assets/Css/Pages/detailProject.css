@@ -1,0 +1,22 @@
+.detail-project {
+  width: 100%;
+  height: 590px;
+  background-color: #f9f9ff;
+}
+
+.detail-project-button-back {
+  width: 20px;
+  height: 20px;
+}
+
+.detail-project-img {
+  width: 500px;
+}
+
+.detail-project-desc {
+  text-align: center;
+}
+
+.detail-project-text {
+  font-weight: normal;
+}

@@ -1,0 +1,27 @@
+.icon-img {
+  width: 30px;
+  margin-right: 15px;
+}
+
+.offcanvas-nav {
+  max-width: 250px;
+  width: 30%;
+}
+
+.offcanvas-title {
+  font-size: 16px;
+}
+
+.offcanvas-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.offcanvas-footer {
+  height: 50px;
+}
+
+.offcanvas-footer-title {
+  margin-top: 90px;
+  font-size: 16px;
+}

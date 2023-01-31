@@ -1,0 +1,23 @@
+.contact {
+  width: 100%;
+  height: 700px;
+  background-color: #f9f9ff;
+}
+
+.contact-text {
+  color: #ff4c60;
+}
+
+.contact-location {
+  border: 0;
+}
+
+.contact-textarea {
+  height: 100px;
+  resize: none;
+}
+
+.contact-button {
+  border: none;
+  background-color: #ff4c60;
+}
